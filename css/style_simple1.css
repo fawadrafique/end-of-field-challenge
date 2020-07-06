@@ -37,57 +37,43 @@ body {
   margin: 14px;
   border-radius: 10px 10px 7px 7px;
   background-color: #e8eef5;
-  color: #0f012a;
 }
-
-.widget h2 {
+.grid-wrap {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "main-item"
+    "item"
+    "item"
+    "item";
+  grid-gap: 25px;
+}
+.h {
   margin: 0px 0px 0px 35px;
   padding-top: 20px;
   padding-bottom: 25px;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 900;
+  font-size: 22px;
+  color: #0f012a;
+  letter-spacing: 1px;
 }
-.widget ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px 0px 0px 36px;
+.point {
+  color: #0f012a;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 600;
+  margin: 0px 0px 0px 35px;
+  margin-top: 0px;
 }
 
-ul {
-  font-weight: bold;
-  list-style: none;
-  padding-left: 0;
-  font-family: "Noto Sans TC", sans-serif;
+.main-item {
+  margin-top: 2px;
 }
-.list1 {
-  padding-top: 7px;
-  padding-bottom: 25px;
-  letter-spacing: 0.3px;
-  border-top: #000;
+.item {
+  border-top: 2px solid white;
 }
-.list2 {
-  padding-top: 7px;
-  padding-bottom: 25px;
-  letter-spacing: 0.3px;
-}
-.list3 {
-  padding-top: 6px;
-  padding-bottom: 25px;
-  letter-spacing: 0.3px;
-}
-li {
-  position: relative;
-  padding-left: 1.5em; /* space to preserve indentation on wrap */
-}
-li:before {
-  content: ""; /* placeholder for the SVG */
-  position: absolute;
-  left: 0; /* place the SVG at the start of the padding */
-  width: 0.8em;
-  height: 0.8em;
-  background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='14' height='14' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>")
-    no-repeat;
-  transform: rotate(-20deg);
+.item img {
+  transform: rotate(-6deg);
 }
