@@ -13,7 +13,7 @@ Create this view pixel-perfectly.
 
 ![Interface 1](img/interface.10.png)
 
-## [Interface 2](https://fawadrafique.github.io/end-of-field-challenge/simple1.html)
+## [Interface 2](https://fawadrafique.github.io/end-of-field-challenge/simple2.html)
 
 Create this view pixel-perfectly.
 
