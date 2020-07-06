@@ -3,6 +3,8 @@
 - Repository name: `end-of-field-challenge`
 - Owner: [Muhammad Fawad Rafique](https://github.com/fawadrafique)
 - Type of Challenge: `solo test`
+- Tool used: `VS Code`
+- Written in : `HTML and CSS`
 - GitHub page: [Click here](https://fawadrafique.github.io/end-of-field-challenge/)
 
 Challenge is to build two full integration using **HTML** and **CSS** only with precision and accuracy.
