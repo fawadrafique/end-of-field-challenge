@@ -1,0 +1,41 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#mockup {
+  width: 442px;
+  height: 312px;
+  background-image: url(../img/interface.10.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.widget {
+  width: 442px;
+  height: 312px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e8eef5;
+  color: #0f012a;
+}
+
+.widget h2 {
+  margin-left: 50px;
+}
