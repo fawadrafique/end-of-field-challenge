@@ -23,19 +23,6 @@ body {
   padding: 10px;
 }
 
-#mockup {
-  width: 1222px;
-  height: 673px;
-  background-image: url(../img/complex.07.png);
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 0;
-  z-index: 10;
-  pointer-events: none;
-}
-
 .grid-wrap {
   color: #ffffff;
   display: grid;
