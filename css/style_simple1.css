@@ -22,58 +22,60 @@ body {
   background-color: #e8eef5;
   color: #ffffff;
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 14% 86%;
   grid-template-rows: 72px 77px 55px 74px;
   grid-template-areas:
-    "h h"
+    "head head"
     "tick1 item1"
     "tick2 item2"
     "tick3 item3";
 }
-.h {
-  grid-area: h;
-  margin: 2px 0px 0px 35px;
-  padding-top: 20px;
+.head {
+  grid-area: head;
+  margin: 0px 0px 0px 35px;
+  padding-top: 18px;
   padding-bottom: 25px;
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: 900;
-  font-size: 22px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
   color: #0f012a;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .tick1 {
   grid-area: tick1;
   border-top: 2px solid white;
-  padding-top: 26px;
-  padding-left: 28px;
+  padding-top: 29px;
+  padding-left: 32px;
 }
 .tick2 {
   grid-area: tick2;
   border-top: 2px solid white;
-  padding-top: 15px;
-  padding-left: 28px;
+  padding-top: 18px;
+  padding-left: 32px;
 }
 
 .tick3 {
   grid-area: tick3;
   border-top: 2px solid white;
-  padding-top: 26px;
-  padding-left: 28px;
+  padding-top: 29px;
+  padding-left: 32px;
 }
 .item1 {
   grid-area: item1;
-  padding-top: 14px;
+  padding-top: 13px;
+  word-spacing: 2px;
 }
 
 .item2 {
   grid-area: item2;
-  padding-top: 15px;
+  padding-top: 14px;
+  word-spacing: 2px;
 }
 
 .item3 {
   grid-area: item3;
-  padding-top: 15px;
+  padding-top: 13px;
 }
 .item1,
 .item2,
@@ -85,6 +87,6 @@ body {
 }
 img {
   transform: rotate(-3deg);
-  width: 65%;
+  width: 60%;
   height: auto;
 }
